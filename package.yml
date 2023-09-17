@@ -1,13 +1,14 @@
 name       : yaru-theme
-version    : 23.04.4
-release    : 21
+version    : 23.10.0
+release    : 22
 source     :
-    - https://github.com/ubuntu/yaru/archive/refs/tags/23.04.4.tar.gz : be00296286426006851e2cdf63dfe8166439cdf2afa22d56035e449cc524412c
+    - https://github.com/ubuntu/yaru/archive/refs/tags/23.10.0.tar.gz : a157df472c241df132ef559e30b5a2f976f5f9963679b2e26a3d9ae0c46e7ece
 license    :
-    - CC-BY-SA-4.0
+    - CC-BY-SA-4.0  # icons/* sounds/*
     - GPL-3.0-or-later
-    - LGPL-2.1-only
-    - LGPL-3.0-only
+    - LGPL-2.1-only # gnome-shell/upstream/theme/gnome-shell-sass/_common.scss
+    - LGPL-3.0-only # icons/src/fullcolor/render-bitmaps.py icons/src/scalable/extract-symbolic-icons.rb
+homepage   : https://github.com/ubuntu/yaru
 component  :
     - ^yaru-icon-theme : desktop.theme
     - ^yaru-gtk-theme : desktop.theme
